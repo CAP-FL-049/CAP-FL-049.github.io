@@ -47,6 +47,8 @@ a:hover {
   padding-top: 9vh;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .resources-title {
@@ -59,6 +61,46 @@ a:hover {
   color: white;
 }
 
+.resource-description {
+  margin-top: 5vh;
+  font-size: 2.5vh;
+  width: 40vw;
+  line-height: 1.2;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2vh;
+  color: white;
+}
+
+.resource-description a {
+  color: blue;
+}
+
+.resource-description a:hover {
+  color: red;
+}
+
+.resources {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+}
+
+.resource {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #03306b;
+  padding: 2vh;
+  color: white;
+}
+
+.resource a {
+  background-color: red;
+  padding: 2vh;
+  
+}
 /* Footer */
 
 footer {

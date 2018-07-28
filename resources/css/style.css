@@ -20,10 +20,20 @@ select {
 button {
   padding: 2vh;
   margin: 2vh;
+  font-size: 2.5vh;
+  background-color: #03306b;
+  color: white;
+}
+
+button:hover {
+  background-color: #aa0d1a;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 form span {
   margin-left: 2vh;
+  font-size: 2.2vh;
 }
 
 html {
@@ -256,6 +266,11 @@ a:hover {
   width: 20vw;
   font-size: 3vh;
   line-height: 1.2;
+}
+
+.contact:hover {
+  background-color: #aa0d1a;
+  transition: 0.3s;
 }
 
 .address-title {

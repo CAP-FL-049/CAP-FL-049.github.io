@@ -2,10 +2,16 @@ form {
   display: flex;
   flex-direction: column;
   font-family: sans-serif;
-  width: 20vw;
+  justify-content: center;
 }
 
 input {
+  padding: 2vh;
+  margin: 2vh;
+  display: flex;
+}
+
+select {
   padding: 2vh;
   margin: 2vh;
 }
@@ -13,8 +19,14 @@ input {
 button {
   padding: 2vh;
   margin: 2vh;
+  width: 20vw;
 }
 
 html {
   font-family: sans-serif;
+}
+
+input,
+select {
+  width: 20vw;
 }

@@ -4,23 +4,20 @@
     <meta charset="utf-8">
     <link href="./resources/css/reset.css" type="text/css" rel="stylesheet" />
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet" />
-    <script>
-      UPLOADCARE_LOCALE = "en";
-      UPLOADCARE_TABS = "file url facebook gdrive gphotos dropbox instagram evernote flickr skydrive";
-      UPLOADCARE_PUBLIC_KEY = "e6fc8c13c59307b13662";
-    </script>
-    <input type="hidden" role="uploadcare-uploader" name="Request%20Sheet"
-       data-crop="disabled"
-       data-preview-step="true" />
-    <script charset="utf-8" src="//ucarecdn.com/libs/widget/3.6.0/uploadcare.full.min.js"></script>
     <title>Ormond CAP</title>
   </head>
   <body>
+
     <form method="POST" action="https://formspree.io/grayson1931@hotmail.com">
       <input type="text" name="Name and Grade: " placeholder="Name, Grade">
-      <input type="text" name="Achievment" placeholder="ex. Achievment 1, Curry"></textarea>
-      <input type="date" min="2018-07-27" placeholder="Date" name="Requested Date" />
-      <input type="file" min="2018-07-27" placeholder="Request" name="Request Form" />
+      <input type="text" name="Achievment" placeholder="ex. Achievment 1, Curry">
+      <input type="date" min="2018-07-27" placeholder="Date" name="Requested Date">
+      <select name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+      </select>
       <button type="submit">Send</button>
     </form>
 

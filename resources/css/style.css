@@ -302,3 +302,18 @@ a:hover {
   font-size: 3vh;
   color: white;
 }
+
+/* Footer */
+
+footer {
+  color: white;
+}
+
+footer {
+  height: 9vh;
+  background-color: #aa0d1a;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 2vh;
+}

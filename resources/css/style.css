@@ -23,10 +23,151 @@ button {
 }
 
 html {
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 input,
 select {
   width: 20vw;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9vh;
+  background-color: #03306b;
+  color: white;
+  position: fixed;
+  width: 100vw;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 10vw;
+  font-size: 2.5vh;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: red;
+  transition: 0.3s;
+}
+
+/* Landing */
+
+.landing-area {
+  background-image: url("../images/rocketry.jpg");
+  height: 91vh;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  justify-content: center;
+  padding-top: 9vh;
+}
+
+.landing {
+  display: flex;
+  justify-content: center;
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3vh;
+  margin-top: 10vh;
+  text-align: center;
+  color: white;
+}
+
+.jumbotron h1 {
+  font-size: 6vh;
+  margin-bottom: 1.5vh;
+}
+
+.jumbotron h2 {
+  font-size: 4vh;
+  margin-bottom: 1.5vh;
+}
+
+.jumbotron h3 {
+  font-size: 3vh;
+}
+
+.jumbotron h3:hover {
+  color: blue;
+  transition: 0.4s;
+}
+
+/* What's Content */
+
+.whats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.programs {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 7vh;
+  height: 100vh;
+}
+
+.program {
+  width: 30vw;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 2vw;
+  height: 90vh;
+  display: flex;
+  background-color: #03306b;
+  color: white;
+  padding: 2vh;
+}
+
+.program img {
+  width: 25vw;
+}
+
+.program-title {
+  font-size: 4vh;
+}
+
+.program-content {
+  font-size: 2.5vh;
+  width: 25vw;
+  line-height: 1.2;
+  height: 45vh;
+}
+
+.program div {
+  margin: 3vh auto;
+}
+
+.title {
+  font-size: 6vh;
+  margin-top: 10vh;
+  justify-content: center;
+  display: flex;
+  height: 10vh;
 }

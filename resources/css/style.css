@@ -5,7 +5,8 @@ form {
   justify-content: center;
 }
 
-input {
+input,
+textarea {
   padding: 2vh;
   margin: 2vh;
   display: flex;
@@ -19,7 +20,10 @@ select {
 button {
   padding: 2vh;
   margin: 2vh;
-  width: 20vw;
+}
+
+form span {
+  margin-left: 2vh;
 }
 
 html {
@@ -131,7 +135,7 @@ a:hover {
   justify-content: center;
   flex-direction: row;
   margin-top: 7vh;
-  height: 100vh;
+  margin-bottom: 7vh;
 }
 
 .program {
@@ -179,10 +183,10 @@ a:hover {
   background-image: url("../images/planes.jpg");
   background-size: cover;
   background-position: center;
-  height: 100vh;
   color: white;
   display: flex;
   justify-content: center;
+  border-bottom: 2vh solid #282828;
 }
 
 .service {
@@ -205,8 +209,51 @@ a:hover {
   margin-top: 10vh;
   background-color: rgba(0, 0, 0, 0.7);
   width: 60vw;
-  text-align: center;
+  margin-bottom: 10vh;
   padding: 2vh;
   font-size: 2.5vh;
+  line-height: 1.2;
+}
+
+/* Contact */
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  flex-direction: column;
+}
+
+.contact-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contacts-title {
+  font-size: 6vh;
+  justify-content: center;
+  display: flex;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin: 2vh auto;
+  background-color: #03306b;
+  color: white;
+  padding: 2vh;
+  width: 20vw;
+  font-size: 3vh;
   line-height: 1.2;
 }

@@ -1,0 +1,20 @@
+form {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  width: 20vw;
+}
+
+input {
+  padding: 2vh;
+  margin: 2vh;
+}
+
+button {
+  padding: 2vh;
+  margin: 2vh;
+}
+
+html {
+  font-family: sans-serif;
+}

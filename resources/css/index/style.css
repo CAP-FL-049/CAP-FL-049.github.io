@@ -87,7 +87,7 @@ a:hover {
 /* Landing */
 
 .landing-area {
-  background-image: url("../images/rocketry.jpg");
+  background-image: url("../../images/rocketry.jpg");
   height: 91vh;
   background-size: cover;
   background-position: bottom;
@@ -190,7 +190,7 @@ a:hover {
 /* Service */
 
 .flag-section {
-  background-image: url("../images/planes.jpg");
+  background-image: url("../../images/planes.jpg");
   background-size: cover;
   background-position: center;
   color: white;

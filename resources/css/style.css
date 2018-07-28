@@ -91,7 +91,7 @@ a:hover {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 3vh;
   margin-top: 10vh;
   text-align: center;
@@ -123,6 +123,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-bottom: 2vh solid #282828;
 }
 
 .programs {
@@ -170,4 +171,42 @@ a:hover {
   justify-content: center;
   display: flex;
   height: 10vh;
+}
+
+/* Service */
+
+.flag-section {
+  background-image: url("../images/planes.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-title h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 6vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2vh;
+
+  margin-top: 10vh;
+}
+
+.service-content {
+  margin-top: 10vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 60vw;
+  text-align: center;
+  padding: 2vh;
+  font-size: 2.5vh;
+  line-height: 1.2;
 }

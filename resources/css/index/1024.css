@@ -1,3 +1,11 @@
 nav li {
   width: 20vw;
 }
+
+.program {
+  height: 105vh;
+}
+
+.program-content {
+  height: 60vh;
+}

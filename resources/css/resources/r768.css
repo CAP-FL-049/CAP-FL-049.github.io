@@ -1,0 +1,19 @@
+header li {
+  width: 20vw;
+}
+
+.resource-description {
+  width: 70vw;
+}
+
+.resource {
+  width: 35vw;
+}
+
+form {
+  width: 60vw;
+}
+
+footer {
+  font-size: 1.5vh;
+}

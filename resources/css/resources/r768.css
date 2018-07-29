@@ -1,5 +1,6 @@
 header li {
   width: 20vw;
+  font-size: 2vh;
 }
 
 .resource-description {
@@ -16,4 +17,8 @@ form {
 
 footer {
   font-size: 1.5vh;
+}
+
+.form-title {
+  text-align: center;
 }

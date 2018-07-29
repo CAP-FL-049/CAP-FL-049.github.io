@@ -85,21 +85,36 @@ a:hover {
   justify-content: center;
   margin-top: 20vh;
   margin-bottom: 10vh;
+  flex-wrap: wrap;
+
 }
 
 .resource {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  margin: 5vh 2vw;
+  align-items: center;
   background-color: #03306b;
   padding: 2vh;
   color: white;
+  height: 20vh;
+  width: 30vw;
 }
 
-.resource a {
-  background-color: red;
-  padding: 2vh;
-  
+.resource:hover {
+  background-color: #aa0d1a;
+}
+
+.resource-title {
+  display: flex;
+  justify-content: center;
+  font-size: 4vh;
+  margin-bottom: 7vh;
+}
+
+.resource-content {
+  font-size: 4vh;
+  font-style: italic;
 }
 /* Footer */
 
@@ -114,4 +129,75 @@ footer {
   display: flex;
   align-items: center;
   font-size: 2vh;
+}
+
+/* Form */
+
+form {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  justify-content: center;
+  width: 30vw;
+}
+
+.request-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10vh;
+  margin-top: 10vh;
+}
+
+.form-title {
+  font-size: 5vh;
+  margin-bottom: 5vh;
+}
+
+form span {
+  margin-left: 2vh;
+}
+
+input,
+textarea {
+  padding: 2vh;
+  margin: 2vh;
+  display: flex;
+}
+
+select {
+  padding: 2vh;
+  margin: 2vh;
+}
+
+button {
+  padding: 2vh;
+  margin: 2vh;
+  font-size: 2.5vh;
+  background-color: #03306b;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  background-color: #aa0d1a;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+form span {
+  margin-left: 2vh;
+  font-size: 2.2vh;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+#yes,
+#no {
+  display: inline;
 }
